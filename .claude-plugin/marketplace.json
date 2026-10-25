@@ -1,0 +1,6 @@
+{
+  "name": "session-chime",
+  "owner": { "name": "etopalov" },
+  "description": "Chimes when a Claude Code session finishes or needs you, with an inbox to jump between sessions.",
+  "plugins": [{ "name": "session-chime", "source": "./" }]
+}

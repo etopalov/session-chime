@@ -1,0 +1,21 @@
+{
+  "name": "session-chime",
+  "version": "0.3.1",
+  "description": "Chimes when a session finishes or needs you, and keeps an inbox of waiting sessions you can click to switch to.",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "minSeconds": {
+      "type": "number",
+      "title": "Minimum turn length (seconds)",
+      "description": "Turns shorter than this finish silently. Needs-input pings always sound.",
+      "default": 15
+    },
+    "autoOpenInbox": {
+      "type": "boolean",
+      "title": "Open the inbox on a new ping",
+      "description": "Open the Sessions waiting pane when any session finishes or needs you.",
+      "default": true
+    }
+  }
+}
